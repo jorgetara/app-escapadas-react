@@ -1,14 +1,11 @@
 import config from "../package.json"
 import './App.css'
-import { useState } from "react"
+
 import Formulario from "./formulario/Formulario"
 
 function App() {
 
-  const [visible, setVisible] = useState(false)
-  function cambiarVisibilidad() {
-    setVisible(!visible)
-  }
+
 
 
   return (
