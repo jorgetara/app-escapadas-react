@@ -1,4 +1,3 @@
-import e from "cors"
 import "./Formulario.css"
 import { useState } from "react"
 
